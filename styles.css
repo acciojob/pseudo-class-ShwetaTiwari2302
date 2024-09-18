@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-#container {
+.container {
     margin: 20px;
     padding: 20px;
     background-color: #e0e0e0;
@@ -15,7 +15,7 @@
     font-size: 20px;
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 /* Pseudo-element to insert content after the container */
