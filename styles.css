@@ -1,29 +1,19 @@
-/*  your css code here. If applicable */
-.container {
-    margin: 20px;
-    padding: 20px;
-    background-color: #e0e0e0;
-    font-size: 18px;
-    text-align: center;
-    position: relative;
+#container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #000;
 }
 
-/* Pseudo-element to insert content before the container */
+/* Pseudo-element to insert content before */
 #container::before {
-    content: "Before Element";
-    color: #f00; /* Red color */
-    font-size: 20px;
-    display: block;
-    text-align: center;
-	margin-bottom: 10px;
+  content: "Before Element ";
+  color: #f00;
+  font-size: 20px;
 }
 
-/* Pseudo-element to insert content after the container */
+/* Pseudo-element to insert content after */
 #container::after {
-    content: "After Element";
-    color: #f00; /* Red color */
-    font-size: 20px;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
+  content: " After Element ";
+  color: #f00;
+  font-size: 20px;
 }
