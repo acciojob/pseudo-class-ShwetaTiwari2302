@@ -1,19 +1,18 @@
 #container {
   margin: 20px;
-  padding: 10px;
-  border: 1px solid #000;
 }
 
-/* Pseudo-element to insert content before */
+/* Pseudo-element to insert content before the container */
 #container::before {
-  content: "Before Element ";
+  content: "Before";
   color: #f00;
   font-size: 20px;
+  
 }
 
-/* Pseudo-element to insert content after */
+/* Pseudo-element to insert content after the container */
 #container::after {
-  content: " After Element ";
+  content: "After";
   color: #f00;
   font-size: 20px;
 }
